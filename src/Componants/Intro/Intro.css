@@ -1,0 +1,13 @@
+/* Home.css */
+.introall {
+    background-image: url('../../assets/images/ChatGPT Image 8 أبريل 2025، 03_45_49 ص.png'); /* مسار الصورة الذي رفعته */
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+  }
+  
