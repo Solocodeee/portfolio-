@@ -14,37 +14,30 @@
     background-color: #212D40 !important;
     color: #fff;
     border: none;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 16px;
+    text-decoration: none;
   }
   
   .card:hover {
     transform: translateY(-5px);
+    background-color: #333f55;
+  }
+  
+  .card .icon {
+    margin-right: 10px;
   }
   
   .card span {
     font-size: 1.1rem;
   }
   
-  .btn-primary {
-    background-color: #D66853 !important;
-    border: none !important;
-    padding: 12px 20px;
-    color: white;
-    font-size: 1rem;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .btn-primary:hover {
-    background-color: #c35443 !important;
-  }
-  
-  /* Responsive layout tweaks */
   @media (max-width: 768px) {
-    .row {
-      flex-direction: column;
-    }
+   
   
     .card {
       flex-direction: row !important;
