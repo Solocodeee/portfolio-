@@ -9,13 +9,13 @@ function Projects() {
       <section  className="mb-5 container projects">
         <h2 className="text-center mb-4">My Projects</h2>
         <div className="row cards">
-          <a href="https://agritora.com/en" className="col-md-3 mb-3">
+          <a href="https://trendystoreshop.com/" className="col-md-3 mb-3">
             <div className="image-container">
               <img src={Pro1} className="project-image" alt="Project 1" />
               <div className="overlay-text">Trendy</div>
             </div>
           </a>
-          <a href="https://trendystoreshop.com/" className="col-md-3 mb-3">
+          <a href="https://agritora.com/en" className="col-md-3 mb-3">
             <div className="image-container">
               <img src={Pro2} className="project-image" alt="Project 2" />
               <div className="overlay-text">Agritora</div>

@@ -7,14 +7,7 @@ function Footer() {
   return (
     <footer className="text-white text-center p-4">
       <div>
-        <p>&copy; 2025 Mostafa Ashmawy. All rights reserved.</p>
-        <div className="mb-3">
-          <a href="#home" className="text-white mx-3"></a>
-          <a href="#about" className="text-white mx-3"></a>
-          <a href="#about" className="text-white mx-3"></a>
-          <a href="#projects" className="text-white mx-3"></a>
-        </div>
-        <div className="social-icons">
+        <div className="social-icons mt-3">
           <a href="https://www.linkedin.com" className="text-white mx-3" target="_blank" rel="noopener noreferrer">
             <FaLinkedin size={30} />
           </a>
@@ -31,6 +24,7 @@ function Footer() {
             <MdEmail size={30} />
           </a>
         </div>
+        <p className=' mt-4'>&copy; 2025 Mostafa Ashmawy. All rights reserved.</p>
       </div>
     </footer>
   );

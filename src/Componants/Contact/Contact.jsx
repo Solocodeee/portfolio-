@@ -1,99 +1,40 @@
 import "./Contact.css";
-import React, { useState } from 'react';
+import React from 'react';
+import { FaWhatsapp, FaFacebook, FaTwitter, FaLinkedin } from 'react-icons/fa';
+import { MdEmail } from 'react-icons/md';
 
 function Contact() {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    subject: '',
-    message: ''
-  });
-
-  const handleChange = (e) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value
-    });
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-
-    // إنشاء رابط mailto مع بيانات النموذج
-    const mailtoLink = `mailto:mostafa.ashmawy002@gmail.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(
-      `Name: ${formData.name}\nEmail: ${formData.email}\nMessage: ${formData.message}`
-    )}`;
-
-    // فتح تطبيق البريد الإلكتروني لكتابة الرسالة
-    window.location.href = mailtoLink;
-  };
-
   return (
     <section id="contact-form" className="container mt-5 pb-5">
-      <h2 className="text-center mb-4">Contact Us</h2>
-      <form onSubmit={handleSubmit}>
-        <div className="mb-3">
-          <label htmlFor="name" className="form-label border-0"></label>
-          <input
-            type="text"
-            className="form-control text-white border-0"
-            id="name"
-            name="name"
-            value={formData.name}
-            onChange={handleChange}
-            placeholder="Your Name"
-            required
-          />
-        </div>
-
-        <div className="mb-3">
-          <label htmlFor="email" className="form-label"></label>
-          <input
-            type="email"
-            className="form-control border-0"
-            id="email"
-            name="email"
-            value={formData.email}
-            onChange={handleChange}
-            placeholder="Your Email"
-            required
-          />
-        </div>
-
-        <div className="mb-3">
-          <label htmlFor="subject" className="form-label"></label>
-          <input
-            type="text"
-            className="form-control border-0"
-            id="subject"
-            name="subject"
-            value={formData.subject}
-            onChange={handleChange}
-            placeholder="Subject"
-            required
-          />
-        </div>
-
-        <div className="mb-3">
-          <label htmlFor="message" className="form-label"></label>
-          <textarea
-            className="form-control border-0"
-            id="message"
-            name="message"
-            value={formData.message}
-            onChange={handleChange}
-            rows="4"
-            placeholder="Your Message"
-            required
-          ></textarea>
-        </div>
-
-        <button type="submit" className="btn btn-primary">
-          Send Message
-        </button>
-      </form>
-    </section>
+    <h2 className="text-center mb-4">Contact Me</h2>
+    <div className="row justify-content-center">
+      {/* Left side cards */}
+      <div className="col-md-4 mb-4 d-flex justify-content-center align-items-center flex-column mt-5">
+        <a href="https://wa.me/+201211929157" target="_blank" className="card text-white p-3 d-flex align-items-center flex-row mb-4 w-100">
+          <FaWhatsapp size={30} className="me-3 text-success" />
+          <span>+20 121 192 9157</span>
+        </a>
+        <a href="mailto:mostafa.ashmawy002@gmail.com" className="card text-white p-3 d-flex align-items-center flex-row mb-4 w-100">
+          <MdEmail size={30} className="me-3 text-danger" />
+          <span>mostafa.ashmawy002@gmail.com</span>
+        </a>
+        <a href="https://www.facebook.com/share/1BZ3Ed8ZVX/" target="_blank" className="card text-white p-3 d-flex align-items-center flex-row mb-4 w-100">
+          <FaFacebook size={30} className="me-3 text-primary" />
+          <span>Facebook</span>
+        </a>
+        <a href="https://twitter.com" target="_blank" className="card text-white p-3 d-flex align-items-center flex-row mb-4 w-100">
+          <FaTwitter size={30} className="me-3 text-info" />
+          <span>Twitter</span>
+        </a>
+        <a href="https://linkedin.com" target="_blank" className="card text-white p-3 d-flex align-items-center flex-row mb-4 w-100">
+          <FaLinkedin size={30} className="me-3 text-primary" />
+          <span>LinkedIn</span>
+        </a>
+      </div>
+    </div>
+  </section>
+  
   );
-
 }
+
 export default Contact;
