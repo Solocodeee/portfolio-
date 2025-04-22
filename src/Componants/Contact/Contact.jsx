@@ -22,11 +22,9 @@ function Contact() {
           <FaFacebook size={30} className="me-3 text-primary" />
           <span>Facebook</span>
         </a>
-        <a href="https://twitter.com" target="_blank" className="card text-white p-3 d-flex align-items-center flex-row mb-4 w-100">
-          <FaTwitter size={30} className="me-3 text-info" />
-          <span>Twitter</span>
-        </a>
-        <a href="https://linkedin.com" target="_blank" className="card text-white p-3 d-flex align-items-center flex-row mb-4 w-100">
+        <a href="https://www.linkedin.com/in/mostafa-ashmawy-226512222
+
+" target="_blank" className="card text-white p-3 d-flex align-items-center flex-row mb-4 w-100">
           <FaLinkedin size={30} className="me-3 text-primary" />
           <span>LinkedIn</span>
         </a>
