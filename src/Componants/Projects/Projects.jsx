@@ -3,6 +3,7 @@ import Pro1 from "../../assets/images/1730798730-6549147-36250caf6a9bb36e8f861f6
 import Pro2 from "../../assets/images/1724616217-5303441-6b2fe2e51453764b1adb7fe041e1df01a8a20a6d.webp";
 import Pro3 from "../../assets/images/Screenshot 2025-04-08 063331.png";
 import Pro4 from "../../assets/images/Screenshot 2025-04-08 063711.png";
+import Pro5 from "../../assets/images/Screenshot 2025-05-04 103205.png";
 function Projects() {
   return (
     <>
@@ -32,6 +33,12 @@ function Projects() {
             <div className="image-container">
               <img src={Pro4} className="project-image" alt="Project 4" />
               <div className="overlay-text">Les prof</div>
+            </div>
+          </a>
+          <a href="https://tard-eta.vercel.app/" className="col-md-3 mb-3">
+            <div className="image-container">
+              <img src={Pro5} className="project-image" alt="Project 4" />
+              <div className="overlay-text">Simple Dashboard</div>
             </div>
           </a>
         </div>
