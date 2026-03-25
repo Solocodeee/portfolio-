@@ -5,15 +5,13 @@ function About() {
       <div className=" text-white  rounded p-4">
         <h2 className="card-title fw-bolder">About Me</h2>
         <p className="card-text mt-4">
-          My name is Mostafa Ashmawy, and I am a front-end web developer. I am
-          currently studying Computer Science and have a strong knowledge of
-          programming. I am passionate about programming and all programming
-          languages, but my true interest lies in web development. I have
-          knowledge of UI/UX design and have been in the programming world for
-          several years, with over a year of experience specifically in web
-          development. I have worked on projects for several companies,
-          including AIsite. I am looking forward to a bright future in the
-          programming field and aim to contribute and help others.
+        My name is Mostafa Ashmawy, a Front-End Web Developer with a strong passion for building modern, responsive, and user-friendly web interfaces. I have a solid background in Computer Science and hands-on experience working with HTML, CSS, JavaScript, and React.
+
+In addition to front-end development, I have experience working with WordPress, including building custom themes from scratch and customizing existing themes to meet specific design and functional requirements. I am capable of developing dynamic WordPress websites, integrating layouts, and ensuring clean, maintainable, and performance-optimized code. I also use tools like Elementor to efficiently build and manage page layouts when needed.
+
+I have worked on real-world projects for clients and companies, which helped me strengthen my technical skills and improve my understanding of UI/UX principles. I focus on delivering clean, scalable, and visually appealing web experiences.
+
+I am continuously learning and improving my skills, and I am seeking opportunities where I can contribute to building high-quality web solutions while growing as a developer.
         </p>
       </div>
     </section>

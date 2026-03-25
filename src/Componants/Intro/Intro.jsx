@@ -27,9 +27,14 @@ function Into() {
                     <a href="https://www.facebook.com/share/1D8q78xkqx/" className="text-white mx-3" target="_blank" rel="noopener noreferrer">
                       <FaFacebookMessenger size={30} />
                     </a>
-                    <a href="mailto:mostafa.ashmawy002@gmail.com" className="text-white mx-3">
-                      <MdEmail size={30} />
-                    </a>
+                   <a
+  href="https://mail.google.com/mail/?view=cm&fs=1&to=mostafa.ashmawy002@gmail.com"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="text-white mx-3"
+>
+  <MdEmail size={30} />
+</a>
                   </div>
         </div>
       </div>
