@@ -2,7 +2,7 @@
 body {
   font-family: 'Noto Sans', sans-serif !important;
   overflow-x: hidden !important;
-  /* background-color: #222831 !important; */
+  background-color: #000000 !important;
   
 }
 * {
@@ -18,7 +18,8 @@ body {
 }
 
 .parallax-bg {
-  background-image: url('./assets/images/compressed_image (2).webp');
+  /* background-image: url('./assets/images/compressed_image (2).webp'); */
+  background-color: black;
   position: fixed;
   top: 0;
   left: 0;

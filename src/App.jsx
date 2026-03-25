@@ -35,7 +35,7 @@ function App() {
 
   return (
     <div className="app-wrapper">
-      <div className="parallax-bg" ref={bgRef}></div>
+      {/* <div className="parallax-bg" ref={bgRef}></div> */}
       <div className="main-content">
         <Nav />
         <div data-aos="fade-up" className="section"><Into /></div>
