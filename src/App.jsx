@@ -38,12 +38,12 @@ function App() {
       {/* <div className="parallax-bg" ref={bgRef}></div> */}
       <div className="main-content">
         <Nav />
-        <div data-aos="fade-up" className="section"><Into /></div>
+        <div className="section"><Into /></div>
         <div data-aos="fade-up" className="section"><About /></div>
         <div data-aos="fade-up" className="section"><Skills /></div>
         <div data-aos="fade-up" className="section"><Projects /></div>
         <div data-aos="fade-up" className="section"><Contact /></div>
-        <div data-aos="fade-up" className="section"><Footer /></div>
+        <div  className="section"><Footer /></div>
       </div>
     </div>
   );

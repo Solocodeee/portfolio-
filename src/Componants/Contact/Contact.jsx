@@ -14,10 +14,14 @@ function Contact() {
           <FaWhatsapp size={30} className="me-3 text-success" />
           <span>+20 121 192 9157</span>
         </a>
-        <a href="mailto:mostafa.ashmawy002@gmail.com" className="card text-white p-3 d-flex align-items-center flex-row mb-4 w-100">
-          <MdEmail size={30} className="me-3 text-danger" />
-          <span>mostafa.ashmawy002@gmail.com</span>
-        </a>
+         <a
+  href="https://mail.google.com/mail/?view=cm&fs=1&to=mostafa.ashmawy002@gmail.com"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="text-white mx-3"
+>
+  <MdEmail size={30} />
+</a>
         <a href="https://www.facebook.com/share/1BZ3Ed8ZVX/" target="_blank" className="card text-white p-3 d-flex align-items-center flex-row mb-4 w-100">
           <FaFacebook size={30} className="me-3 text-primary" />
           <span>Facebook</span>
