@@ -11,6 +11,7 @@ import Pro7 from "../../assets/images/shiaka.webp";
 import Pro8 from "../../assets/images/delta.webp";
 import Pro9 from "../../assets/images/wala.webp";
 import Pro10 from "../../assets/images/elitesmile.webp";
+import Pro11 from "../../assets/images/MrKotchy.webp";
 
 function Projects() {
   // 🔥 API (Data)
@@ -25,6 +26,7 @@ function Projects() {
     { id: 8, title: "Delta", img: Pro8, link: "https://deltexco.com/" },
     { id: 9, title: "Wala", img: Pro9, link: "https://coachwm.com/" },
     { id: 10, title: "Elite Smile", img: Pro10, link: "https://elitesmile-clinics.com/" },
+    { id: 11, title: "Mr Kotchy", img: Pro11, link: "https://mrkotchy.com/" },
   ];
 
   return (
